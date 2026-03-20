@@ -1,0 +1,1122 @@
+2026-03-20T07:56:40.473Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T07:56:40.474Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded"
+}}).
+2026-03-20T07:56:40.474Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T07:56:40.477Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T07:56:40.477Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T07:57:39.239Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-03-20T07:57:39.239Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T07:57:39.239Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T07:57:39.239Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-03-20T07:57:39.239Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-03-20T07:57:39.409Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-03-20T07:57:39.409Z [INFO] [Tool.invoke]({name: appmod-list-jdks, input: {
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T07:57:39.409Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T07:57:39.448Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 1.8.0_482\n   📁 Path: /usr/local/sdkman/candidates/java/8.0.482-tem/bin\n   🏷️ Source: SDKMAN,PATH,JAVA_HOME\n\n2. Java 1.8.0_482\n   📁 Path: /usr/local/sdkman/candidates/java/current/bin\n   🏷️ Source: VSCode\n\nTotal: 2 JDK installation(s) found"
+}}).
+2026-03-20T07:57:39.449Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-03-20T07:57:39.772Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-03-20T07:57:39.772Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T07:57:39.772Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T07:57:39.772Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-03-20T07:57:39.772Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-03-20T07:57:39.934Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-03-20T07:57:39.934Z [INFO] [Tool.invoke]({name: appmod-list-mavens, input: {
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T07:57:39.934Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T07:57:39.940Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. 📁 Path: /usr/local/sdkman/candidates/maven/3.9.14/bin\n   🏷️ Source: SDKMAN,MAVEN_HOME,PATH\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-03-20T07:57:39.940Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-03-20T08:02:15.750Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:02:15.750Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "sessionId": "20260320075640",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:15.750Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:02:15.750Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:02:15.750Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:02:15.914Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:02:15.914Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "sessionId": "20260320075640",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:15.914Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:02:15.915Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planInitialized' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:02:15.915Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:02:23.131Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:02:23.131Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:23.131Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:02:23.131Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:02:23.131Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:02:23.295Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:02:23.295Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:23.295Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:02:23.296Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentAnalyzed' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:02:23.296Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:02:30.718Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:02:30.718Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:30.718Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:02:30.718Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:02:30.718Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:02:30.882Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:02:30.882Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:30.882Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:02:30.883Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'dependenciesAnalyzed' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:02:30.883Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:02:39.351Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:02:39.351Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:39.351Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:02:39.351Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:02:39.351Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:02:39.514Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:02:39.514Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:39.514Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:02:39.515Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradePathDesigned' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:02:39.515Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:02:45.586Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:02:45.586Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:45.586Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:02:45.587Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:02:45.587Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:02:45.749Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:02:45.749Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:02:45.749Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:02:45.750Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:02:45.750Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:02:51.297Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-03-20T08:02:51.297Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T08:02:51.297Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:02:51.297Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Review [upgrade plan](/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640/plan.md)",
+  "confirmationMessages": {
+    "title": "Plan generated",
+    "message": "Please review the generated plan and make any necessary adjustments before proceeding. You can modify the generated [`plan.md`](/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640/plan.md) directly."
+  }
+}}).
+2026-03-20T08:02:51.297Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-03-20T08:03:04.653Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-03-20T08:03:04.654Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T08:03:04.654Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:03:04.654Z [INFO] Upgrade plan confirmed successfully.
+2026-03-20T08:03:04.656Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now and be tracked in markdown file: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640/progress.md."
+}}).
+2026-03-20T08:03:04.656Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-03-20T08:03:16.915Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:03:16.915Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:03:16.915Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:03:16.915Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:03:16.916Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:03:17.083Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:03:17.083Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:03:17.083Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:03:17.084Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planConfirmed' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:03:17.084Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:04:24.584Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:04:24.584Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:04:24.584Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:04:24.584Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:04:24.584Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:04:24.751Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:04:24.751Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:04:24.752Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:04:24.771Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:04:24.771Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:04:38.214Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-03-20T08:04:38.214Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20260320075640",
+  "version": "21"
+}}).
+2026-03-20T08:04:38.214Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:04:38.338Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK",
+  "confirmationMessages": {
+    "title": "Download and install JDK",
+    "message": "\nThis tool will download and install JDK 21 from Microsoft with below settings.\n- **Version**: 21\n- **Vendor**: Microsoft\n- **Url**: https://aka.ms/download-jdk/microsoft-jdk-21.0.8-linux-x64.tar.gz\n- **Destination**: `/home/vscode/.jdk`\n- **Checksum**: SHA256: da1cae7d08d41f32e87712bd3feac73faf7646a30476164c9e62a598dbd30aac\n- **Signature**: https://aka.ms/download-jdk/microsoft-jdk-21.0.8-linux-x64.tar.gz.sig\n- **Public Key**: http://aka.ms/microsoft_jdk_public_key\n"
+  }
+}}).
+2026-03-20T08:04:38.338Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-03-20T08:04:40.262Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-03-20T08:04:40.262Z [INFO] [Tool.invoke]({name: appmod-install-jdk, input: {
+  "sessionId": "20260320075640",
+  "version": "21"
+}}).
+2026-03-20T08:04:40.262Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:04:56.349Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "version": "21.0.8"
+  },
+  "message": "JDK 21 is installed at /home/vscode/.jdk/jdk-21.0.8/bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "21"
+  }
+}}).
+2026-03-20T08:04:56.705Z [INFO] ----------------------invoked appmod-install-jdk----------------------
+2026-03-20T08:05:17.375Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:05:17.375Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "buildToolPath": "."
+  }
+}}).
+2026-03-20T08:05:17.375Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:05:17.375Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:05:17.375Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:05:17.543Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:05:17.543Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "buildToolPath": "."
+  }
+}}).
+2026-03-20T08:05:17.543Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:05:17.544Z [INFO] Project /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager is a maven project, try to get java version from pom.xml
+2026-03-20T08:05:17.546Z [INFO] Project java version: 8
+2026-03-20T08:05:17.547Z [INFO] Maven project detected.
+2026-03-20T08:05:17.547Z [INFO] Build tool type: mvnw
+2026-03-20T08:05:17.547Z [INFO] JDK: {
+  "name": "java",
+  "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+  "version": "8"
+}
+2026-03-20T08:05:17.547Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-03-20T08:05:17.547Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "asset-manager",
+  "dir": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager"
+}
+2026-03-20T08:05:17.704Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:05:17.704Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:06:27.034Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:06:27.034Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:06:27.034Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:06:27.034Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:06:27.034Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:06:27.203Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:06:27.203Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:06:27.203Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:06:27.203Z [INFO] Project /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager is a maven project, try to get java version from pom.xml
+2026-03-20T08:06:27.204Z [INFO] Project java version: 8
+2026-03-20T08:06:27.204Z [INFO] Maven project detected.
+2026-03-20T08:06:27.204Z [INFO] Build tool type: mvnw
+2026-03-20T08:06:27.235Z [INFO] JDK: {
+  "name": "java",
+  "path": "/usr/local/sdkman/candidates/java/8.0.482-tem/bin",
+  "version": "8"
+}
+2026-03-20T08:06:27.235Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-03-20T08:06:27.235Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "/usr/local/sdkman/candidates/java/8.0.482-tem/bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "asset-manager",
+  "dir": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager"
+}
+2026-03-20T08:06:27.235Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:06:27.235Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:06:27.235Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-44ffc6f0-d4c9-4137-a95a-181ccbe35d38.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:06:27.248Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-44ffc6f0-d4c9-4137-a95a-181ccbe35d38.log'
+2026-03-20T08:06:27.248Z [INFO] [BaseBuildTool] Found 0 modules: 
+2026-03-20T08:06:27.249Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-20T08:06:27.249Z [INFO] [MavenBuildTool] Cleaning /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager using Maven
+2026-03-20T08:06:27.250Z [INFO] [Environment] Running command (Java undefined): mvnw clean -q -B -fn
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:06:27.265Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:06:27.265Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:06:27.266Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-bd4fe234-d8ac-4470-8d41-792fbc41baa7.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:06:27.281Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-bd4fe234-d8ac-4470-8d41-792fbc41baa7.log'
+2026-03-20T08:06:27.283Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:06:27.283Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:06:34.575Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:06:34.575Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "failed",
+  "message": "Baseline: 3/4 tests passed. 1 pre-existing error: Mockito cannot mock final class ResponseInputStream (AWS SDK). Web module: 0 tests, compilation SUCCESS."
+}}).
+2026-03-20T08:06:34.576Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:06:34.576Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:06:34.576Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:06:34.740Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:06:34.740Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "failed",
+  "message": "Baseline: 3/4 tests passed. 1 pre-existing error: Mockito cannot mock final class ResponseInputStream (AWS SDK). Web module: 0 tests, compilation SUCCESS."
+}}).
+2026-03-20T08:06:34.740Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:06:34.740Z [INFO] Project /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager is a maven project, try to get java version from pom.xml
+2026-03-20T08:06:34.741Z [INFO] Project java version: 8
+2026-03-20T08:06:34.741Z [INFO] Maven project detected.
+2026-03-20T08:06:34.741Z [INFO] Build tool type: mvnw
+2026-03-20T08:06:34.757Z [INFO] JDK: {
+  "name": "java",
+  "path": "/usr/local/sdkman/candidates/java/8.0.482-tem/bin",
+  "version": "8"
+}
+2026-03-20T08:06:34.757Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-03-20T08:06:34.757Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "/usr/local/sdkman/candidates/java/8.0.482-tem/bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "asset-manager",
+  "dir": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager"
+}
+2026-03-20T08:06:34.757Z [INFO] [BaseBuildTool] Gathering test results...
+2026-03-20T08:06:34.783Z [INFO] [BaseBuildTool] Summarizing surefire reports.
+2026-03-20T08:06:34.784Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:06:34.784Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:06:53.100Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:06:53.100Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:06:53.100Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:06:53.100Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:06:53.101Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:06:53.281Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:06:53.281Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:06:53.281Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:06:53.282Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:06:53.282Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:06:59.616Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:06:59.616Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Spring Boot to 3.5.x and Java to 21"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:06:59.616Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:06:59.616Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:06:59.616Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:06:59.788Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:06:59.788Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Spring Boot to 3.5.x and Java to 21"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:06:59.788Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:06:59.789Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:06:59.789Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:08:20.594Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:08:20.595Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Migrate javax to jakarta Namespace"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:08:20.595Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:08:20.595Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:08:20.595Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:08:20.759Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:08:20.759Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Migrate javax to jakarta Namespace"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:08:20.760Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:08:20.760Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:08:20.760Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:09:57.500Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:09:57.500Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:09:57.500Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:09:57.500Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:09:57.500Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:09:57.672Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:09:57.673Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:09:57.673Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:09:57.673Z [INFO] Project /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager is a maven project, try to get java version from pom.xml
+2026-03-20T08:09:57.674Z [INFO] Project java version: 21
+2026-03-20T08:09:57.674Z [INFO] Maven project detected.
+2026-03-20T08:09:57.674Z [INFO] Build tool type: mvnw
+2026-03-20T08:09:57.691Z [INFO] JDK: {
+  "name": "java",
+  "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+  "version": "21"
+}
+2026-03-20T08:09:57.691Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-03-20T08:09:57.691Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "asset-manager",
+  "dir": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager"
+}
+2026-03-20T08:09:57.691Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:09:57.691Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:09:57.691Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-1df5751d-2185-4eab-8f11-b043a00fb33f.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:09:57.704Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-1df5751d-2185-4eab-8f11-b043a00fb33f.log'
+2026-03-20T08:09:57.704Z [INFO] [BaseBuildTool] Found 0 modules: 
+2026-03-20T08:09:57.704Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-20T08:09:57.704Z [INFO] [MavenBuildTool] Cleaning /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager using Maven
+2026-03-20T08:09:57.705Z [INFO] [Environment] Running command (Java undefined): mvnw clean -q -B -fn
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:09:57.716Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:09:57.716Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:09:57.716Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-3edb91f2-dcaa-4fbd-bea0-33bfb7f28550.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:09:57.730Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-3edb91f2-dcaa-4fbd-bea0-33bfb7f28550.log'
+2026-03-20T08:09:57.731Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:09:57.731Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:11:16.402Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:11:16.402Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Spring Boot to 3.5.x and Java to 21",
+    "commitId": "4456a63"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:11:16.402Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:11:16.402Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:11:16.402Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:11:16.563Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:11:16.563Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Spring Boot to 3.5.x and Java to 21",
+    "commitId": "4456a63"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:11:16.563Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:11:16.582Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:11:16.582Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:11:22.290Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:11:22.290Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "4456a63",
+    "stepNumber": 4,
+    "stepTitle": "Migrate javax to jakarta Namespace"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:11:22.290Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:11:22.290Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:11:22.290Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:11:22.450Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:11:22.450Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "4456a63",
+    "stepNumber": 4,
+    "stepTitle": "Migrate javax to jakarta Namespace"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:11:22.450Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:11:22.471Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:11:22.471Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:11:28.524Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:11:28.524Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:11:28.524Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:11:28.524Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:11:28.524Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:11:28.690Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:11:28.690Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:11:28.690Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:11:28.690Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:11:28.690Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:12:36.636Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:12:36.637Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:12:36.637Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:12:36.637Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:12:36.637Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:12:36.811Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:12:36.811Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:12:36.811Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:12:36.811Z [INFO] Project /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager is a maven project, try to get java version from pom.xml
+2026-03-20T08:12:36.813Z [INFO] Project java version: 21
+2026-03-20T08:12:36.813Z [INFO] Maven project detected.
+2026-03-20T08:12:36.813Z [INFO] Build tool type: mvnw
+2026-03-20T08:12:36.835Z [INFO] JDK: {
+  "name": "java",
+  "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+  "version": "21"
+}
+2026-03-20T08:12:36.835Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-03-20T08:12:36.835Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "asset-manager",
+  "dir": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager"
+}
+2026-03-20T08:12:36.836Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:12:36.836Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:12:36.836Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-eda145e2-5ab2-40d5-970a-b79372a0434a.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:12:36.859Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-eda145e2-5ab2-40d5-970a-b79372a0434a.log'
+2026-03-20T08:12:36.859Z [INFO] [BaseBuildTool] Found 0 modules: 
+2026-03-20T08:12:36.859Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-20T08:12:36.859Z [INFO] [MavenBuildTool] Cleaning /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager using Maven
+2026-03-20T08:12:36.859Z [INFO] [Environment] Running command (Java undefined): mvnw clean -q -B -fn
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:12:36.880Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:12:36.880Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:12:36.880Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-3c429690-d266-4221-bd43-dd6ea5cb655c.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:12:36.900Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-3c429690-d266-4221-bd43-dd6ea5cb655c.log'
+2026-03-20T08:12:36.901Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:12:36.901Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:12:42.608Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:12:42.608Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:12:42.608Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:12:42.608Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:12:42.608Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:12:42.769Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:12:42.769Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:12:42.769Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:12:42.769Z [INFO] Project /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager is a maven project, try to get java version from pom.xml
+2026-03-20T08:12:42.770Z [INFO] Project java version: 21
+2026-03-20T08:12:42.771Z [INFO] Maven project detected.
+2026-03-20T08:12:42.771Z [INFO] Build tool type: mvnw
+2026-03-20T08:12:42.790Z [INFO] JDK: {
+  "name": "java",
+  "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+  "version": "21"
+}
+2026-03-20T08:12:42.790Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-03-20T08:12:42.790Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "asset-manager",
+  "dir": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager"
+}
+2026-03-20T08:12:42.791Z [INFO] [BaseBuildTool] Gathering test results...
+2026-03-20T08:12:42.810Z [INFO] [BaseBuildTool] Summarizing surefire reports.
+2026-03-20T08:12:42.811Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:12:42.811Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:14:57.397Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:14:57.397Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "4456a63",
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:14:57.397Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:14:57.397Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:14:57.397Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:14:57.560Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:14:57.560Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "4456a63",
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:14:57.560Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:14:57.561Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:14:57.561Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:15:03.615Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-20T08:15:03.615Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:15:03.615Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:15:03.615Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-20T08:15:03.615Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-20T08:15:03.777Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-20T08:15:03.778Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640",
+  "status": "succeeded"
+}}).
+2026-03-20T08:15:03.778Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:15:03.802Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260320075640,\nSession Dir: /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/.github/java-upgrade/20260320075640"
+}}).
+2026-03-20T08:15:03.802Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-20T08:17:48.722Z [INFO] ---------------------prepare appmod-validate-cves-for-java----------------------
+2026-03-20T08:17:48.725Z [INFO] [Tool.prepareInvocation]({name: appmod-validate-cves-for-java, input: {
+  "dependencies": [
+    "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+    "org.springframework.boot:spring-boot-starter-web:3.5.0",
+    "org.springframework.boot:spring-boot-starter-amqp:3.5.0",
+    "software.amazon.awssdk:s3:2.25.13",
+    "org.springframework.boot:spring-boot-devtools:3.5.0",
+    "org.springframework.boot:spring-boot-configuration-processor:3.5.0",
+    "org.projectlombok:lombok:1.18.38",
+    "org.springframework.boot:spring-boot-starter-test:3.5.0",
+    "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+    "org.postgresql:postgresql:42.7.5",
+    "org.springframework.boot:spring-boot-starter:3.5.0",
+    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+  ],
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T08:17:48.725Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-20T08:17:48.725Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Validate CVEs"
+}}).
+2026-03-20T08:17:48.725Z [INFO] ----------------------prepared appmod-validate-cves-for-java----------------------
+2026-03-20T08:17:48.897Z [INFO] ----------------------invoke appmod-validate-cves-for-java----------------------
+2026-03-20T08:17:48.897Z [INFO] [Tool.invoke]({name: appmod-validate-cves-for-java, input: {
+  "dependencies": [
+    "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+    "org.springframework.boot:spring-boot-starter-web:3.5.0",
+    "org.springframework.boot:spring-boot-starter-amqp:3.5.0",
+    "software.amazon.awssdk:s3:2.25.13",
+    "org.springframework.boot:spring-boot-devtools:3.5.0",
+    "org.springframework.boot:spring-boot-configuration-processor:3.5.0",
+    "org.projectlombok:lombok:1.18.38",
+    "org.springframework.boot:spring-boot-starter-test:3.5.0",
+    "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+    "org.postgresql:postgresql:42.7.5",
+    "org.springframework.boot:spring-boot-starter:3.5.0",
+    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+  ],
+  "projectPath": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager",
+  "sessionId": "20260320075640"
+}}).
+2026-03-20T08:17:48.897Z [INFO] [Tool.invoke] do invoke.
+2026-03-20T08:17:48.898Z [INFO] Project /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager is a maven project, try to get java version from pom.xml
+2026-03-20T08:17:48.898Z [INFO] Project java version: 21
+2026-03-20T08:17:48.898Z [INFO] Maven project detected.
+2026-03-20T08:17:48.899Z [INFO] Build tool type: mvnw
+2026-03-20T08:17:48.917Z [INFO] JDK: {
+  "name": "java",
+  "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+  "version": "21"
+}
+2026-03-20T08:17:48.917Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-03-20T08:17:48.917Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "/home/vscode/.jdk/jdk-21.0.8/bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "asset-manager",
+  "dir": "/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager"
+}
+2026-03-20T08:17:48.918Z [INFO] [Environment] Running command (Java undefined): mvnw dependency:tree -B
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:48.929Z [ERROR] [MavenBuildTool] Failed to get dependencies from dependency tree: Error: Failed to run command: "mvnw dependency:tree -B" with error code 127
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:48.929Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -B
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:48.938Z [ERROR] [MavenBuildTool] Failed to get dependencies from effective pom: Error: Failed to run command: "mvnw help:effective-pom -B" with error code 127
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:48.939Z [INFO] [MavenBuildTool] Getting Java version of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager from pom.xml
+2026-03-20T08:17:48.939Z [INFO] [MavenBuildTool] Searching for pom.xml files in /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:17:48.940Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:17:48.940Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:17:48.940Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-4fe48646-0c8e-436b-bd45-cba520b076f7.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:48.950Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-4fe48646-0c8e-436b-bd45-cba520b076f7.log'
+2026-03-20T08:17:48.950Z [INFO] [MavenBuildTool] Found pom.xml files: 
+2026-03-20T08:17:48.950Z [INFO] [Environment] Running command (Java undefined): mvnw help:evaluate -Dexpression=project.properties -q -DforceStdout
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:48.960Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -DforceStdout
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:48.969Z [ERROR] [MavenBuildTool] Failed to get Java version of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:17:48.996Z [INFO] [MavenBuildTool] Getting all module coordinates of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:17:48.996Z [INFO] [MavenBuildTool] Getting effective POMs of /workspaces/Copilot-App-Modernization-Java-Lab/asset-manager
+2026-03-20T08:17:48.996Z [INFO] [Environment] Running command (Java undefined): mvnw help:effective-pom -Doutput=effective-pom-f310db83-a4a3-4de8-8446-b0bc427ef10e.log
+/bin/sh: 1: mvnw: not found
+2026-03-20T08:17:49.005Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open '/workspaces/Copilot-App-Modernization-Java-Lab/asset-manager/effective-pom-f310db83-a4a3-4de8-8446-b0bc427ef10e.log'
+2026-03-20T08:17:49.007Z [INFO] Getting CVEs for dependencies: org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0,org.springframework.boot:spring-boot-starter-web:3.5.0,org.springframework.boot:spring-boot-starter-amqp:3.5.0,software.amazon.awssdk:s3:2.25.13,org.springframework.boot:spring-boot-devtools:3.5.0,org.springframework.boot:spring-boot-configuration-processor:3.5.0,org.projectlombok:lombok:1.18.38,org.springframework.boot:spring-boot-starter-test:3.5.0,org.springframework.boot:spring-boot-starter-data-jpa:3.5.0,org.postgresql:postgresql:42.7.5,org.springframework.boot:spring-boot-starter:3.5.0,com.fasterxml.jackson.core:jackson-databind:2.19.0
+2026-03-20T08:17:49.007Z [INFO] getting CVEs for dependencies:
+ - org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0
+  - org.springframework.boot:spring-boot-starter-web:3.5.0
+  - org.springframework.boot:spring-boot-starter-amqp:3.5.0
+  - software.amazon.awssdk:s3:2.25.13
+  - org.springframework.boot:spring-boot-devtools:3.5.0
+  - org.springframework.boot:spring-boot-configuration-processor:3.5.0
+  - org.projectlombok:lombok:1.18.38
+  - org.springframework.boot:spring-boot-starter-test:3.5.0
+  - org.springframework.boot:spring-boot-starter-data-jpa:3.5.0
+  - org.postgresql:postgresql:42.7.5
+  - org.springframework.boot:spring-boot-starter:3.5.0
+  - com.fasterxml.jackson.core:jackson-databind:2.19.0...
+2026-03-20T08:17:49.007Z [INFO] getting gitHub access token...
+2026-03-20T08:17:57.677Z [INFO] Processing batch 1/1, size: 12
+2026-03-20T08:17:57.677Z [INFO] Proxy configuration: HTTPS_PROXY=(not set), HTTP_PROXY=(not set), NO_PROXY=(not set), NODE_EXTRA_CA_CERTS=(not set), vscode http.proxy=(not set), hasProxy=false
+2026-03-20T08:17:57.677Z [INFO] No proxy detected, using direct connection.
+2026-03-20T08:17:57.679Z [INFO] listing CVEs from GitHub for dependencies [
+  "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+  "org.springframework.boot:spring-boot-starter-web:3.5.0",
+  "org.springframework.boot:spring-boot-starter-amqp:3.5.0",
+  "software.amazon.awssdk:s3:2.25.13",
+  "org.springframework.boot:spring-boot-devtools:3.5.0",
+  "org.springframework.boot:spring-boot-configuration-processor:3.5.0",
+  "org.projectlombok:lombok:1.18.38",
+  "org.springframework.boot:spring-boot-starter-test:3.5.0",
+  "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+  "org.postgresql:postgresql:42.7.5",
+  "org.springframework.boot:spring-boot-starter:3.5.0",
+  "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+]
+2026-03-20T08:17:58.623Z [INFO] Fetched 1 total advisories across all pages
+2026-03-20T08:17:58.623Z [INFO] grouping CVEs and finding max patched version by dep...
+2026-03-20T08:17:58.623Z [INFO] done getting 1 CVEs for 12 dependencies
+2026-03-20T08:17:58.624Z [INFO] calculating patched version by dep...
+2026-03-20T08:17:58.625Z [INFO] CVE CVE-2025-49146 for org.postgresql:postgresql:42.7.5: patched version 42.7.7
+2026-03-20T08:17:58.625Z [INFO] finished getting CVEs for dependencies.
+2026-03-20T08:17:58.625Z [INFO] Found 1 dependencies with known CVEs
+2026-03-20T08:17:58.626Z [INFO] CVE issues found:
+- Dependency `org.postgresql:postgresql:42.7.5` has **1** known CVEs need to be fixed:
+  - [CVE-2025-49146](https://github.com/advisories/GHSA-hq9p-pm7w-8p54): pgjdbc Client Allows Fallback to Insecure Authentication Despite channelBinding=require Configuration
+    - **Severity**: **HIGH**
+    - **Details**: ### Impact
+      When the PostgreSQL JDBC driver is configured with channel binding set to `required` (default value is `prefer`), the driver would incorrectly allow connections to proceed with authentication methods that do not support channel binding (such as password, MD5, GSS, or SSPI  authentication). This could allow a man-in-the-middle attacker to intercept connections that users believed were protected by channel binding requirements.
+      
+      ### Patches
+      TBD
+      
+      ### Workarounds
+      
+      Configure `sslMode=verify-full` to prevent MITM attacks.
+      
+      ### References
+      
+      * https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256
+      * https://datatracker.ietf.org/doc/html/rfc7677
+      * https://datatracker.ietf.org/doc/html/rfc5802
+2026-03-20T08:17:58.626Z [INFO] [Tool.invoke]({result: {
+  "message": "The following dependencies have known CVEs that need to be fixed:\n- Dependency `org.postgresql:postgresql:42.7.5` has **1** known CVEs need to be fixed:\n  - [CVE-2025-49146](https://github.com/advisories/GHSA-hq9p-pm7w-8p54): pgjdbc Client Allows Fallback to Insecure Authentication Despite channelBinding=require Configuration\n    - **Severity**: **HIGH**\n    - **Details**: ### Impact\n      When the PostgreSQL JDBC driver is configured with channel binding set to `required` (default value is `prefer`), the driver would incorrectly allow connections to proceed with authentication methods that do not support channel binding (such as password, MD5, GSS, or SSPI  authentication). This could allow a man-in-the-middle attacker to intercept connections that users believed were protected by channel binding requirements.\n      \n      ### Patches\n      TBD\n      \n      ### Workarounds\n      \n      Configure `sslMode=verify-full` to prevent MITM attacks.\n      \n      ### References\n      \n      * https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256\n      * https://datatracker.ietf.org/doc/html/rfc7677\n      * https://datatracker.ietf.org/doc/html/rfc5802",
+  "result": [
+    {
+      "cves": [
+        {
+          "id": "CVE-2025-49146",
+          "ghsa_id": "GHSA-hq9p-pm7w-8p54",
+          "severity": "high",
+          "summary": "pgjdbc Client Allows Fallback to Insecure Authentication Despite channelBinding=require Configuration",
+          "description": "### Impact\nWhen the PostgreSQL JDBC driver is configured with channel binding set to `required` (default value is `prefer`), the driver would incorrectly allow connections to proceed with authentication methods that do not support channel binding (such as password, MD5, GSS, or SSPI  authentication). This could allow a man-in-the-middle attacker to intercept connections that users believed were protected by channel binding requirements.\n\n### Patches\nTBD\n\n### Workarounds\n\nConfigure `sslMode=verify-full` to prevent MITM attacks.\n\n### References\n\n* https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256\n* https://datatracker.ietf.org/doc/html/rfc7677\n* https://datatracker.ietf.org/doc/html/rfc5802",
+          "html_url": "https://github.com/advisories/GHSA-hq9p-pm7w-8p54",
+          "affectedDeps": [
+            {
+              "name": "org.postgresql:postgresql",
+              "vulVersions": ">= 42.7.4, < 42.7.7",
+              "patchedVersion": "42.7.7"
+            }
+          ]
+        }
+      ],
+      "dep": "org.postgresql:postgresql:42.7.5",
+      "name": "org.postgresql:postgresql",
+      "version": "42.7.5",
+      "semver": "42.7.5",
+      "unfixableCves": [],
+      "patchedVersion": "42.7.7"
+    }
+  ],
+  "telemetry": {
+    "cve.high": 1,
+    "cves": "{\"CVE-2025-49146\":1}"
+  }
+}}).
+2026-03-20T08:17:58.627Z [INFO] ----------------------invoked appmod-validate-cves-for-java----------------------
