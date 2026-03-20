@@ -4,6 +4,10 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PROJECT_ROOT="$SCRIPT_DIR/.."
 
+# Use JDK 21 (required for Spring Boot 3.5.x)
+export JAVA_HOME="/home/vscode/.jdk/jdk-21.0.8"
+export PATH="$JAVA_HOME/bin:$PATH"
+
 echo "Starting PostgreSQL container..."
 docker run -d --name assets-postgres \
     -e POSTGRES_DB=assets_manager \
